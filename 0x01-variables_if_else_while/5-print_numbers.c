@@ -1,0 +1,16 @@
+#include <stdio.h>
+/**
+ * main - Printing all base ten numbers
+ *
+ * Return: Always 0 (Success)
+ */
+
+int main(void)
+{
+	int num;
+
+	for (num = 0; num <= 9; num++)
+	printf("%i", num);
+	putchar('\n');
+	return (0);
+}
