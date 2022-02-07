@@ -1,12 +1,12 @@
-/*
-*main - Entry point
+/**
+ * main - Entry point a text from Dora Korpar where the date is written
  *
- *  * Return: Always 1 (Error)
- */
+ * Return: Always 1 (Error)
+**/
 #include<stdio.h>
 #include <unistd.h>
 int main(void)
 {
-	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
+	printf("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
 	return (1);
 }
