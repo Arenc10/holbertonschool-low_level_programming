@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _abs(int) - a function that shows the absolute value
+ * _abs - a function that shows the absolute value
  * @a: an integer that takes a value
  * Return: Always 0 (Successful)
  */
