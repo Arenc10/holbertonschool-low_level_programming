@@ -1,14 +1,17 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "main.h"
 /**
- * main - Check the code
+ * print_alphabet - Function that prints alphabet
+ * Description: A function that prints alphabet while using putchar
  *
  * Return: Always 0 (Success)
- */
-
-int main(void)
+*/
+void print_alphabet(void)
 {
-	print_alphabet();
-	return (0);
+	char letter = 'a';
+
+	while (letter <= 'z')
+	{
+		_putchar(letter);
+		letter++;
+	}
 }
