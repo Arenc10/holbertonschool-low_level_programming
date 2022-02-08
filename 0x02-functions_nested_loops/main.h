@@ -14,12 +14,12 @@ int _putchar(char c)
 
 void print_alphabet(void)
 {
-	char c = 'a';
+	char letter = 'a';
 
-	while (c <= 'z')
+	while (letter <= 'z')
 	{
-		_putchar(c);
-		c++;
+		_putchar(letter);
+		letter++;
 	}
 	_putchar('\n');
 	return;
