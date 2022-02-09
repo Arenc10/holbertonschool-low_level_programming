@@ -1,9 +1,10 @@
 #include "main.h"
-/*
- * add - A function that adds to integers
+/**
+ * add - Add to integers
+ * Description: A function which brings the result of two integers
  * @a: first integer to add
  * @b: second integer to add
- * Return: Always 0 (Success)
+ * Return: Always a + b (Success)
  */
 int add(int a, int b)
 {
