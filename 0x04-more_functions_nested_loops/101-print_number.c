@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * print_number - A function that prints numbers
  * @n: first operand an integer
