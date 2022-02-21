@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_chessboard - function that prints a chess board
- * @a: first operand 
+ * @a: first operand
  * Return: Always 0 (Success)
  */
 void print_chessboard(char (*a)[8])
