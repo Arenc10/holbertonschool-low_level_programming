@@ -7,14 +7,14 @@
  */
 unsigned int _strspn(char *s, char *accept)
 {
-	int i;
-	int j;
+	int i, j;
 	unsigned int characterNum = 0;
-	int exists = 0;
+	int exists;
 
-	for (int i = 0; s[i] != '\0'; i++)
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		for (j = 0; accept[j] != '\0'; j++;)
+		exists = 0;
+		for (j = 0; accept[j] != '\0'; j++)
 		{
 			if (s[i] == accept[j])
 			{
