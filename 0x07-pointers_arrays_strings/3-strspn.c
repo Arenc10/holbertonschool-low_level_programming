@@ -9,8 +9,8 @@ unsigned int _strspn(char *s, char *accept)
 {
 	int i;
 	int j;
-	int exists = 0;
 	unsigned int characterNum = 0;
+	int exists = 0;
 
 	for (int i = 0; s[i] != '\0'; i++)
 	{
@@ -22,9 +22,12 @@ unsigned int _strspn(char *s, char *accept)
 				break;
 			}
 		}
-		if (exists == 0)
+		if (exists == 1)
 		{
-			characterNum = i;
+			characterNum++;
+			continue;
 		}
+		break;
 	}
+	return (characterNum);
 }
