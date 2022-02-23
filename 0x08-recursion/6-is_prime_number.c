@@ -13,7 +13,7 @@ int isPrime(int n, int i)
 		return (0);
 	if (i == n / 2)
 		return (1);
-	return (prime(n, i + 1));
+	return (isPrime(n, i + 1));
 }
 /**
  * is_prime_number - Calling other functiont
