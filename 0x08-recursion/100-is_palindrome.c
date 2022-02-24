@@ -8,10 +8,10 @@
  */
 int check_palindrome(char *s, int idx, int length)
 {
-	if (s[idx] == s[length])
+	if (s[idx] == s[length / 2])
 		return (1);
-	if (s[idx] == s[length - i - 1])
-		return (check_palindrome(s, length, idx + 1));
+	if (s[idx] == s[length - idx - 1])
+		return (check_palindrome(s, idx + 1, length));
 	return (0);
 }
 /**
@@ -35,6 +35,8 @@ int is_palindrome(char *s)
 {
 	int idx = 0;
 	int length = find_length(s);
-	
-	return (check_palindrome(s, index, length));
+
+	if (!(*s))
+		return (1);
+	return (check_palindrome(s, idx, length));
 }
