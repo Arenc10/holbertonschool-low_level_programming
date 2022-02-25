@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * main - Entry point
- * @args: first operand
+ * @argc: first operand
  * @argv: second operand
  * Return: Always 0 (Success)
  */
