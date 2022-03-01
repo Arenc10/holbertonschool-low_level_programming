@@ -3,11 +3,6 @@
 #include <stdlib.h>
 
 /**
- *  * main - check the code
- *   *
- *    * Return: Always 0.
- *     */
-/**
  *  * print_grid - prints a grid of integers
  *   * @grid: the address of the two dimensional grid
  *    * @width: width of the grid
@@ -53,5 +48,6 @@ int main(void)
 			        grid[0][3] = 98;
 				    grid[3][4] = 402;
 				        print_grid(grid, 6, 4);
-					    return (0);
+					    free_grid(grid, 4);
+					        return (0);
 }
