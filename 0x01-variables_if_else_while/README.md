@@ -1,4 +1,4 @@
-#If , if/else , while, do/while Statements in C
+# If , if/else , while, do/while Statements in C
 0-positive_or_negative.c  
 1-last_digit.c  
 2-print_alphabet.c  
