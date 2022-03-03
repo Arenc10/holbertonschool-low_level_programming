@@ -1,7 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-#include <stlib.h>
-#include <string.h>
+#include <stdlib.h>
 /**
  * _calloc - function that allocatemem for an array
  * @nmemb: First operand unsigned int
