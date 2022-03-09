@@ -7,7 +7,7 @@
  * @argv: Second operand
  * Return: Return 0 Always (Success)
  */
-int main(int argc, int **argv)
+int main(int argc, char **argv)
 {
 	int num1;
 	int num2;
@@ -20,9 +20,8 @@ int main(int argc, int **argv)
 	}
 	num1 = atoi(argv[1]);
 	num2 = atoi(argv[3]);
-	op = atoi(argv[2]);
-
-	if (get_op_func(op) == NULL)
+	op = argv[2];
+	if (get_op_func(op) == NULL || op[1] != '\0')
 	{
 		printf("Error\n");
 		exit(99);
@@ -32,6 +31,6 @@ int main(int argc, int **argv)
 		printf("Error\n");
 		exit(100);
 	}
-	prtinf("%d\n", get_op_func(op)(num1, num2));
+	printf("%d\n", get_op_func(op)(num1, num2));
 	return (0);
 }
