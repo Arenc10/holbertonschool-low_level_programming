@@ -6,7 +6,7 @@
 
 - [0x02-Functions_nested_loops](https://github.com/Arenc10/holbertonschool-low_level_programming/tree/main/0x02-functions_nested_loops)
 
-[0x03-Debugging](https://github.com/Arenc10/holbertonschool-low_level_programming/tree/main/0x03-debugging)
+- [0x03-Debugging](https://github.com/Arenc10/holbertonschool-low_level_programming/tree/main/0x03-debugging)
 
 - [0x04-More_functions_nested_loops](https://github.com/Arenc10/holbertonschool-low_level_programming/tree/main/0x04-more_functions_nested_loops)
 
