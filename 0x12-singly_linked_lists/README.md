@@ -1,4 +1,4 @@
-#Single linked lists
+# Single linked lists
 
 - [0-print_list.c](https://github.com/Arenc10/holbertonschool-low_level_programming/blob/main/0x12-singly_linked_lists/0-print_list.c) - *A function that prints the elements of a single linked list*
 
