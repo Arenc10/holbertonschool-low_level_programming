@@ -30,8 +30,8 @@
 
 - [0x0E-Structures_typedef](https://github.com/Arenc10/holbertonschool-low_level_programming/tree/main/0x0E-structures_typedef)
 
-- [0x0F-function_pointers](https://github.com/Arenc10/holbertonschool-low_level_programming/tree/main/0x0F-function_pointers)
+- [0x0F-Function_pointers](https://github.com/Arenc10/holbertonschool-low_level_programming/tree/main/0x0F-function_pointers)
 
 - [0x10-Variadic_functions](https://github.com/Arenc10/holbertonschool-low_level_programming/tree/main/0x10-variadic_functions)
 
-- [0x12-singly_linked_lists](https://github.com/Arenc10/holbertonschool-low_level_programming/tree/main/0x12-singly_linked_lists)
+- [0x12-Singly_linked_lists](https://github.com/Arenc10/holbertonschool-low_level_programming/tree/main/0x12-singly_linked_lists)
