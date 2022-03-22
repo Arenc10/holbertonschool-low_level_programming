@@ -9,9 +9,8 @@ int pop_listint(listint_t **head)
 	int result;
 	listint_t *node;
 
-	node = malloc(sizeof(listint_t));
 	if (head == NULL || *head == NULL)
-		return 0;
+		return (0);
 	node = *head;
 	result = (*head)->n;
 	(*head) = (*head)->next;
